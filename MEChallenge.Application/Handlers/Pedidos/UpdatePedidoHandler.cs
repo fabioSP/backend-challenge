@@ -1,0 +1,34 @@
+﻿using MEChallenge.Application.Commands.Pedido;
+using MEChallenge.Application.Core;
+using MEChallenge.Application.Domain.Interfaces;
+using MediatR;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace MEChallenge.Application.Handlers.Pedidos
+{
+    public class UpdatePedidoHandler : IRequestHandler<PedidoUpdateCommand, Response>
+    {
+        private readonly IPedidoRepository _repository;
+
+        public UpdatePedidoHandler(IPedidoRepository repository)
+        {
+            _repository = repository;
+        }
+
+        public async Task<Response> Handle(PedidoUpdateCommand request, CancellationToken cancellationToken)
+        {
+            try
+            {
+                var result = await _repository.Update(request);
+
+                return new Response(result);
+            }
+            catch (Exception ex)
+            {
+                return new Response(ex.Message);
+            }
+        }
+    }
+}

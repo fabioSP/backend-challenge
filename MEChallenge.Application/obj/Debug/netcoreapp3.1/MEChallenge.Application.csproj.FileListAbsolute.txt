@@ -1,0 +1,9 @@
+D:\Mercado Eletrônico\MEChallenge\MEChallenge.Application\bin\Debug\netcoreapp3.1\MEChallenge.Application.deps.json
+D:\Mercado Eletrônico\MEChallenge\MEChallenge.Application\bin\Debug\netcoreapp3.1\MEChallenge.Application.dll
+D:\Mercado Eletrônico\MEChallenge\MEChallenge.Application\bin\Debug\netcoreapp3.1\MEChallenge.Application.pdb
+D:\Mercado Eletrônico\MEChallenge\MEChallenge.Application\obj\Debug\netcoreapp3.1\MEChallenge.Application.AssemblyInfoInputs.cache
+D:\Mercado Eletrônico\MEChallenge\MEChallenge.Application\obj\Debug\netcoreapp3.1\MEChallenge.Application.AssemblyInfo.cs
+D:\Mercado Eletrônico\MEChallenge\MEChallenge.Application\obj\Debug\netcoreapp3.1\MEChallenge.Application.csproj.CoreCompileInputs.cache
+D:\Mercado Eletrônico\MEChallenge\MEChallenge.Application\obj\Debug\netcoreapp3.1\MEChallenge.Application.dll
+D:\Mercado Eletrônico\MEChallenge\MEChallenge.Application\obj\Debug\netcoreapp3.1\MEChallenge.Application.pdb
+D:\Mercado Eletrônico\MEChallenge\MEChallenge.Application\obj\Debug\netcoreapp3.1\MEChallenge.Application.csprojAssemblyReference.cache
