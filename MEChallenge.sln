@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEChallenge.API", "MEChallenge.API\MEChallenge.API.csproj", "{0BC1171B-913A-4C50-94CE-0F93E6C114A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEChallenge.API", "MEChallenge.API\MEChallenge.API.csproj", "{0BC1171B-913A-4C50-94CE-0F93E6C114A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEChallenge.Application", "MEChallenge.Application\MEChallenge.Application.csproj", "{EC7AE3A6-5433-4D25-89AC-237FF408E407}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MEChallenge.Application", "MEChallenge.Application\MEChallenge.Application.csproj", "{EC7AE3A6-5433-4D25-89AC-237FF408E407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MEChallenge.Test", "MEChallenge.Test\MEChallenge.Test.csproj", "{C23D3FD9-2AF3-4E96-8FBD-DD3CECDC9D03}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{EC7AE3A6-5433-4D25-89AC-237FF408E407}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC7AE3A6-5433-4D25-89AC-237FF408E407}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC7AE3A6-5433-4D25-89AC-237FF408E407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C23D3FD9-2AF3-4E96-8FBD-DD3CECDC9D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C23D3FD9-2AF3-4E96-8FBD-DD3CECDC9D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C23D3FD9-2AF3-4E96-8FBD-DD3CECDC9D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C23D3FD9-2AF3-4E96-8FBD-DD3CECDC9D03}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
